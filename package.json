@@ -1,0 +1,24 @@
+{
+  "name": "06-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leah348/06-vitest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leah348/06-vitest/issues"
+  },
+  "homepage": "https://github.com/leah348/06-vitest#readme",
+  "dependencies": {
+    "vitest": "^4.0.17"
+  },
+  "type": "module"
+}
