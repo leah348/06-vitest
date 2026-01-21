@@ -14,3 +14,13 @@ export function areArraysEqual(arr1, arr2) {
 
   return arr1.every((val, index) => val === arr2[index]);
 }
+
+export function toTitileCase(str) {
+    if( typeof str !=== "stirng") return "";
+    return str
+        .toLowerCase()
+        .split(" ")
+        .map((word) => word.charAt(0). toUpperCase() + word.slice(1))
+        .join(" ")
+        
+}
